@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    background-image: url(asset/background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 3rem;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav {
+    padding-top: 1.5rem;
+
+}
+
+li a,
+button  {
+    text-decoration: none;
+    color: black;
+    margin-left: 3rem;
+
+}
+
+li {
+    list-style: none;
+}
+
+li button {
+    width: 7rem;
+    height: 2.2rem;
+    background: linear-gradient(to right, yellow, orangered);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.logo img {
+    margin-right: 28rem;
+}
+
+.content {
+    padding-top: 10rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.content p {
+    padding-top: 3rem;
+
+}
+
+.btn {
+    margin-top: 3.2rem;
+    height: 2.5rem;
+    width: 10rem;
+    background: linear-gradient(to right, orangered, yellow);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 1.3rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic img {
+    padding-top: 3.5rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+
